@@ -1,0 +1,20 @@
+server:
+  port: 8000
+  
+spring:
+  instance:
+    name: sso-zuul
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka
+      
+zuul:
+  routes:
+  #路由名称
+    app-sso:
+    #映射路径
+      path: /signon-service/**
+      serviceId: sso-feign
+      
