@@ -54,6 +54,24 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   		</artifactId>
   	</dependency>
   	
+  	<!-- Hystrix -->
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+  	</dependency>
+  	
+  	<!-- Feign -->
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-openfeign</artifactId>
+  	</dependency>
+  	
+  	<!-- API网关：Zuul -->
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+  	</dependency>
+  	
   	<!-- mybatis -->
   	<dependency>
   		<groupId>org.mybatis.spring.boot</groupId>

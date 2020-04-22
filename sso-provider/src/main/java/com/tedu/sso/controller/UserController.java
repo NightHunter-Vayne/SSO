@@ -17,7 +17,7 @@ public class UserController {
 	private UserService userService;
 	
 	/**
-	 * d检测数据是否可用
+	 * d 检测数据是否可用
 	 * 
 	 * @param param用户输入的参数
 	 * @param type type为类型，可选参数1、2、3分别代表username、phone、email
